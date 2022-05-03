@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "module": "es2020",
+    "outDir": "./dist/mjs"
+  },
+  "exclude": [
+    "./node_modules/**/*.ts",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx"
+  ]
+}

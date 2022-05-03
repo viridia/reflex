@@ -1,0 +1,29 @@
+{
+  "sourceMap": true,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noEmit": false,
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": ["jest"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}
